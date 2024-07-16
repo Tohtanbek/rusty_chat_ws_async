@@ -1,0 +1,12 @@
+[package]
+name = "ws-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = "0.12"
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "0.23.1"
+futures = "*"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.3"
