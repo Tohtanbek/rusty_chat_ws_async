@@ -4,5 +4,6 @@ edition = "2021"
 [workspace]
 members = [
     "ws-server",
-    "ws-client"
+    "ws-client",
+    "common_lib"
 ]
